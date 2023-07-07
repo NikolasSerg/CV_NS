@@ -98,8 +98,12 @@ main h2 {
 }
 
 #summary {
-    line-height: 2;
-    font-size: 18px;
+    line-height: 1.7;
+    font-size: 12px;
+}
+
+#summary p {
+    font-size: 12px;
 }
 
 table {
@@ -109,6 +113,10 @@ table {
 
 table td {
     vertical-align: baseline;
+    font-size: 12px;
+}
+table td.titelsWork {
+    font-size: 14px;
 }
 
 .section-titles h3 {
