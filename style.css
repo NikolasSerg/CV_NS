@@ -1,9 +1,11 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: baseline;
 }
 body {
     display: flex;
     justify-content: center;
+    font-size: 14px;
 }
 
 #wrapper {
@@ -99,26 +101,22 @@ main h2 {
 
 #summary {
     line-height: 1.7;
-    font-size: 12px;
-}
-
-#summary p {
-    font-size: 12px;
 }
 
 table {
     border-collapse: separate;
     border-spacing: 10px 30px;
 }
-
-table td {
-    vertical-align: baseline;
-    font-size: 12px;
-}
-table td.titelsWork {
-    font-size: 14px;
-}
+    
+table td.titelsWork, td.main {
+    display: flex;
+    flex-direction: column;
+} 
 
 .section-titles h3 {
     margin: 0;
+}
+
+.lineUnder {
+    text-decoration: underline;
 }
